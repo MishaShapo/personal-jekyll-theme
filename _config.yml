@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://panossakkos.github.io"
+url: "cs.utexas.edu"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -12,53 +12,52 @@ url: "https://panossakkos.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /personal-jekyll-theme
+baseurl: "/~mps"
 
 # Google tracking id
 
-google-tracking-id: ""
+google-tracking-id: "UA-89498391-1"
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
 # then you should disable it
 
-force-https: True
+force-https: false
 
 #############
 # HTML Head #
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: "Michail Shaposhnikov"
+title: "{ Michail Shaposhnikov }"
+description: "Software Engineer. Photographer. Adventurer."
+keywords: "shaposhnikov, michail, personal, ut, austin, computer science, internship"
 favicon: "/img/favicon.ico"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: "/img/rocket.png"
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/bg.jpg"
 
 ##############################
 # Dynamic Text on the Header #
 ##############################
 
 dynamic-typing: True
-shuffle: True # Shuffle the lines.
-loop: True
-loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 10
+shuffle: False # Shuffle the lines.
+loop: False
+loop-count: 0 # Set False for infinite loop, or set any number for finite loop.
+type-speed: 40
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Software Engineer. Photographer. Adventurer."
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/me.jpg"
 
 ##############################
 # Color the browser elements #
@@ -87,9 +86,9 @@ icon-192p: "/img/web-app/icon-192p.png"
 
 enable-gesture-navigation: True
 
-post-preview-words: 96
+post-preview-words: 20
 
-paginate: 5
+paginate: 7
 
 email-share: True
 fb-share: True
@@ -99,10 +98,10 @@ reddit-share: True
 google-plus-share: True
 tumblr-share: True
 pinterest-share: True
-pocket-share: True
-vkontakte-share: True
+pocket-share: False
+vkontakte-share: False
 
-disqus-shortname: "panossakkos"
+disqus-shortname: "mps-1"
 
 syntax-highlight: True
 
@@ -111,22 +110,26 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/timeline/utcs.jpg"
+    date: "August 2016 - Today"
+    description: "Studying Computer Science at UT Austin."
+  - image: "/img/timeline/moved_to_texas.jpg"
+    date: "August 2011"
+    description: "Moved to Houston, Texas."
+  - image: "/img/timeline/started_soccer.jpg"
+    date: "January 2004"
+    description: "Started playing soccer."
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/default.jpg"
 
 ###########
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "misha.shapo98@utexas.edu"
+resume-url : "https://drive.google.com/open?id=0B1XZ0c96WHnhZkI5OXp5SHNucUk"
 
 ################
 # Author Blurb #
@@ -136,8 +139,8 @@ email: "your@email.here"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+author_blurb: "My name is Michail Shaposhnikov. My friends call me Misha. I am a computer science student at the University of Texas at Austin. I love videography, computer science, soccer and everything in between."
+author_blurb_image: "/img/me.jpg"
 
 ##################
 # Social Buttons #
@@ -145,29 +148,27 @@ author_blurb_image: "/img/author.png"
 
 social:
   - title: "facebook"
-    url: "https://facebook.com/"
-  - title: "twitter"
-    url: "https://twitter.com/"
+    url: "https://www.facebook.com/misha.shaposhnikov1"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
-  - title: "rss"
-    url: "/feed.xml"
+    url: "https://github.com/MishaShapo"
+  - title: "youtube"
+    url: "https://www.youtube.com/channel/UCrpfycZsTFGa7Es2Qy1Q4fg"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/in/michail-shaposhnikov-28701893?trk=hp-identity-photo"
 
 ############
 # 404 page #
 ############
 
-404-img: "/img/labtocat.png"
+not-found-img: "/img/not_found.png"
 
 ##################
 # GPG on Keybase #
 ##################
 
-keybase-username: johnsmith
-keybase-in-social: True
-keybase-in-footer: True
+keybase-username: ""
+keybase-in-social: False
+keybase-in-footer: False
 
 ################################################################################
 
@@ -187,7 +188,8 @@ exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
 
 # Pagination path
 
-paginate_path: "blog/page:num/"
+paginate_path: "/blog/page:num/"
+
 
 # Enable minification SASS
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>{ Michail Shaposhnikov }</title>
+		<description>Software Engineer. Photographer. Adventurer.</description>
+		<link>cs.utexas.edu/~mps</link>
+		<atom:link href="cs.utexas.edu/~mps/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>React Native Tamagotchi Game Part 1: Overview</title>
+				
+				
+					<description>&lt;p&gt;&lt;img src=&quot;/~mps/img/post_assets/react_native_tamagotchi_part_1_1.png&quot; alt=&quot;Screenshot of the app homescreen with the pet kitty&quot; /&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 25 Dec 2016 00:00:00 -0600</pubDate>
+				<link>cs.utexas.edu/~mps/mobile%20dev/2016/12/25/react-native-tamagotchi-game-part-1.html</link>
+				<guid isPermaLink="true">cs.utexas.edu/~mps/mobile%20dev/2016/12/25/react-native-tamagotchi-game-part-1.html</guid>
+			</item>
+		
+	</channel>
+</rss>

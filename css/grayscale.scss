@@ -4,6 +4,9 @@
 @import "variables";
 @import "mixins";
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,900');
+
+
 /*!
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -13,7 +16,8 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
     color: $font-color;
     background-color: $primary-color;
 }
@@ -74,7 +78,7 @@ a {
     &:hover,
     &:focus {
         text-decoration: none;
-        color: darken($secondary-color,20%);
+        color: darken($secondary-color,80%);
     }
 }
 
@@ -249,7 +253,7 @@ a {
     /* Added in { Personal } */
     ul,
     ol {
-        text-align: center;
+        text-align: justify;
         margin: 0 0 25px;
         font-size: 18px;
         line-height: 1.5;
@@ -274,6 +278,15 @@ a {
             border: 0px;
             margin-bottom: 20px;
             padding: 4px;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          text-align: left;
         }
     }
 }
@@ -444,4 +457,30 @@ body {
 
 .fourofour {
   border: 1px solid $primary-color !important;
+}
+
+.img-author{
+  border-radius:50%;
+  border:7px solid #ddd !important;
+  padding:0 !important
+}
+
+small  {
+  a.category{
+    color:$third-color !important;
+    -webkit-transition: all .2s ease-in-out !important;
+    -moz-transition: all .2s ease-in-out !important;
+    transition: all .2s ease-in-out !important;
+    &:hover,
+    {
+        text-decoration: none !important;
+        color: darken($third-color,80%) !important;
+    }
+  }
+}
+
+strong {
+  font-weight: 700;
+  font-size: 24px;
+  text-shadow: 1px 1px 5px black;
 }
