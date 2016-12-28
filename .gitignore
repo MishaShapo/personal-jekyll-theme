@@ -8,8 +8,8 @@ auto-save-list
 tramp
 .\#*
 
-_site/
-.sass-cache/
+# _site/
+# .sass-cache/
 *.swp
 pkg/
 test/
