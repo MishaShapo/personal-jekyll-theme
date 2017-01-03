@@ -7,6 +7,27 @@
 		<atom:link href="cs.utexas.edu/~mps/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Title</title>
+				
+				
+					<description>&lt;h2 id=&quot;navigation-and-animation&quot;&gt;Navigation and Animation&lt;/h2&gt;
+&lt;p&gt;I’ve made steady progress with my Tamagotchi mobile app. I’ve finished the
+code for&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;navigating between the 3 main screens (Home, Store, and Backpack)&lt;/li&gt;
+  &lt;li&gt;simple email-based Firebase authentication (tied with Redux state)&lt;/li&gt;
+  &lt;li&gt;a hitbox mechanic for the sprites&lt;/li&gt;
+  &lt;li&gt;animations for the Pet wellbeing stats (health, hunger, happiness)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+				
+				<pubDate>Tue, 03 Jan 2017 00:00:00 -0600</pubDate>
+				<link>cs.utexas.edu/~mps/mobile%20dec/2017/01/03/react-native-tamagotchi-game-part-2.html</link>
+				<guid isPermaLink="true">cs.utexas.edu/~mps/mobile%20dec/2017/01/03/react-native-tamagotchi-game-part-2.html</guid>
+			</item>
+		
+			<item>
 				<title>React Native Tamagotchi Game Part 1: Overview</title>
 				
 				
