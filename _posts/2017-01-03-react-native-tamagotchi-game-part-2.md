@@ -1,12 +1,12 @@
 ---
 layout: post
 section-type: post
-title: Title
+title: "React Native Tamagotchi Game Part 2: Navigation and Animation"
 category: "Mobile Dec"
 tags: [ 'react native', 'mobile development', 'app development', 'game', 'navigation', 'animation' ]
 ---
 
-## Navigation and Animation
+## Updates
 I've made steady progress with my Tamagotchi mobile app. I've finished the
 code for
 - navigating between the 3 main screens (Home, Store, and Backpack)
@@ -86,4 +86,4 @@ const normalizedY = locationY % tileHeight;
 ##Moving Forward
 Now, I just have to work on the grid views for the Store and Backpack screens as well as the modal for cashing in steps for in-game currency. After that, I can focus on fully adding all the game state to a Redux store. Then, I will finally get around to integrating HealthKit/Google Fit APIs to get the actual step counts.
 
-As always, you can find the [code for all this on my GitHub](https://github.com/MishaShapo/CaGif) as I am making the app open-source for everyone to learn from. :) 
+As always, you can find the [code for all this on my GitHub](https://github.com/MishaShapo/CaGif) as I am making the app open-source for everyone to learn from. :)
