@@ -6,3 +6,9 @@ sitemap:
   priority: 1.0
 ---
 ## Blog
+
+<div>
+  {% for post in paginator.posts %}
+    {% include post-list.html%}
+  {% endfor %}
+</div>

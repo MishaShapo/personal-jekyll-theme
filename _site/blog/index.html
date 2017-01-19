@@ -182,6 +182,12 @@
 
         <h2 id="blog">Blog</h2>
 
+<div>
+  {% for post in paginator.posts %}
+    {% include post-list.html%}
+  {% endfor %}
+</div>
+
 
         <div>
           

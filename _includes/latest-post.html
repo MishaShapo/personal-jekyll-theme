@@ -5,7 +5,7 @@
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
 
-        <!-- {{ page.content | markdownify }} -->
+        {{ page.content | markdownify }}
 
         <!-- {% assign post = site.posts.first %}
         <h4> <strong> {{ post.date | date_to_string }} </strong>
@@ -17,11 +17,7 @@
           <strong> <a href="{{site.baseurl}}{{ post.url }}">{{post.title}} </a> </strong>
           <small> <a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
         </h4> -->
-        <div>
-          {% for post in paginator.posts %}
-            {% include post-list.html%}
-          {% endfor %}
-        </div>
+        
 
         <!-- {{ post.content | strip_html | markdownify | truncatewords: site.post-preview-words }} -->
 
