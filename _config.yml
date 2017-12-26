@@ -22,7 +22,7 @@ google-tracking-id: "UA-89498391-1"
 # If you are not hosted on Github Pages, and your host doesn't support https
 # then you should disable it
 
-force-https: false
+force-https: True
 
 #############
 # HTML Head #
@@ -84,7 +84,7 @@ icon-192p: "/img/web-app/icon-192p.png"
 # Blog #
 ########
 
-enable-gesture-navigation: True
+enable-gesture-navigation: False
 
 post-preview-words: 20
 
@@ -97,7 +97,7 @@ linkedin-share: True
 reddit-share: True
 google-plus-share: True
 tumblr-share: True
-pinterest-share: True
+pinterest-share: False
 pocket-share: False
 vkontakte-share: False
 

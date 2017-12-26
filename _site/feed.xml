@@ -3,8 +3,8 @@
 	<channel>
 		<title>{ Michail Shaposhnikov }</title>
 		<description>Software Engineer. Photographer. Adventurer.</description>
-		<link>cs.utexas.edu/~mps</link>
-		<atom:link href="cs.utexas.edu/~mps/feed.xml" rel="self" type="application/rss+xml" />
+		<link>cs.utexas.edu</link>
+		<atom:link href="cs.utexas.edu/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>React Native Tamagotchi Game Part 3: Native Modules and Beta Testing</title>
@@ -15,8 +15,8 @@
 </description>
 				
 				<pubDate>Thu, 19 Jan 2017 00:00:00 -0600</pubDate>
-				<link>cs.utexas.edu/~mps/mobile%20dev/2017/01/19/react-native-tamagotchi-game-part-3.html</link>
-				<guid isPermaLink="true">cs.utexas.edu/~mps/mobile%20dev/2017/01/19/react-native-tamagotchi-game-part-3.html</guid>
+				<link>cs.utexas.edu/mobile%20dev/2017/01/19/react-native-tamagotchi-game-part-3.html</link>
+				<guid isPermaLink="true">cs.utexas.edu/mobile%20dev/2017/01/19/react-native-tamagotchi-game-part-3.html</guid>
 			</item>
 		
 			<item>
@@ -36,21 +36,21 @@ code for&lt;/p&gt;
 </description>
 				
 				<pubDate>Tue, 03 Jan 2017 00:00:00 -0600</pubDate>
-				<link>cs.utexas.edu/~mps/mobile%20dev/2017/01/03/react-native-tamagotchi-game-part-2.html</link>
-				<guid isPermaLink="true">cs.utexas.edu/~mps/mobile%20dev/2017/01/03/react-native-tamagotchi-game-part-2.html</guid>
+				<link>cs.utexas.edu/mobile%20dev/2017/01/03/react-native-tamagotchi-game-part-2.html</link>
+				<guid isPermaLink="true">cs.utexas.edu/mobile%20dev/2017/01/03/react-native-tamagotchi-game-part-2.html</guid>
 			</item>
 		
 			<item>
 				<title>React Native Tamagotchi Game Part 1: Overview</title>
 				
 				
-					<description>&lt;p&gt;&lt;img src=&quot;/~mps/img/post_assets/react_native_tamagotchi_part_1_1.png&quot; alt=&quot;Screenshot of the app homescreen with the pet kitty&quot; /&gt;&lt;/p&gt;
+					<description>&lt;p&gt;&lt;img src=&quot;/img/post_assets/react_native_tamagotchi_part_1_1.png&quot; alt=&quot;Screenshot of the app homescreen with the pet kitty&quot; /&gt;&lt;/p&gt;
 
 </description>
 				
 				<pubDate>Sun, 25 Dec 2016 00:00:00 -0600</pubDate>
-				<link>cs.utexas.edu/~mps/mobile%20dev/2016/12/25/react-native-tamagotchi-game-part-1.html</link>
-				<guid isPermaLink="true">cs.utexas.edu/~mps/mobile%20dev/2016/12/25/react-native-tamagotchi-game-part-1.html</guid>
+				<link>cs.utexas.edu/mobile%20dev/2016/12/25/react-native-tamagotchi-game-part-1.html</link>
+				<guid isPermaLink="true">cs.utexas.edu/mobile%20dev/2016/12/25/react-native-tamagotchi-game-part-1.html</guid>
 			</item>
 		
 	</channel>

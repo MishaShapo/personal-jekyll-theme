@@ -7,7 +7,7 @@
 auto-save-list
 tramp
 .\#*
-
+.DS_Store
 # _site/
 # .sass-cache/
 *.swp
