@@ -259,6 +259,9 @@ a {
         line-height: 1.5;
         list-style-position: inside;
     }
+    li {
+        padding: 10px;
+    }
     pre {
       padding: 0;
       > code {
